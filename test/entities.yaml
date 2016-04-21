@@ -1,0 +1,16 @@
+---
+- entity_name: router_1
+  IP_Address: 192.168.0.1
+  network_os: ios
+  username: admin
+  password: password
+- entity_name: router_2
+  IP_Address: 192.168.0.2
+  network_os: ios
+  username: admin
+  password: password
+- entity_name: router_3
+  IP_Address: 192.168.0.3
+  network_os: ios
+  username: admin
+  password: password

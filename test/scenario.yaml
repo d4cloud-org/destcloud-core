@@ -1,0 +1,28 @@
+- fault_type: port down
+  fault_ID: uuid
+  time: 1
+  fault_place:
+      routerID: uuid
+      router_name: router_1
+      interface_name: eth0
+- fault_type: port down
+  fault_ID: uuid
+  time: 5000
+  fault_place:
+      routerID: uuid
+      router_name: router_1
+      interface_name: eth0
+- fault_type: port down
+  fault_ID: uuid
+  time: 5000
+  fault_place:
+      routerID: uuid
+      router_name: router_1
+      interface_name: eth0
+- fault_type: port down
+  fault_ID: uuid
+  time: 9000
+  fault_place:
+      routerID: uuid
+      router_name: router_1
+      interface_name: eth0

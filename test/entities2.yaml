@@ -1,0 +1,22 @@
+---
+- entity_name: destcloud-kzw
+  IP_address: "192.168.100.28 "
+  port_number: 8181
+- entity_name: destcloud-spr
+  IP_address: 192.168.100.126
+  port_number: 8181
+- entity_name: destcloud-nar
+  IP_address:  192.168.100.110
+  port_number: 8181
+- entity_name: destcloud-osk
+  IP_address:  192.168.100.78
+  port_number: 8181
+- entity_name: destcloud-hrs
+  IP_address:  192.168.100.46
+  port_number: 8181
+- entity_name: destcloud-kch
+  IP_address:  192.168.100.94
+  port_number: 8181
+- entity_name: destcloud-nah
+  IP_address:  192.168.100.142
+  port_number: 8181
