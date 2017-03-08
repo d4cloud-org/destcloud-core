@@ -1,6 +1,7 @@
 # coding: utf-8
 
 require 'pp'
+require 'syslog/logger'
 
 class DCLogger
 
@@ -13,7 +14,7 @@ class DCLogger
   end
 
   def debug(message = "<no message>")
-      pp message
+    @log.debug("DC2-DEBUG: #{message}")
   end
 end
 

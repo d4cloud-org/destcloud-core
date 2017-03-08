@@ -4,19 +4,19 @@
 require 'eventmachine'
 require 'thin'
 require 'sinatra'
-require 'sinatra/reloader'
+#require 'sinatra/reloader'
 require 'yaml'
 
+require 'syslog/logger'
 require 'uuidtools'
 require 'pp'
 
-require 'syslog/logger'
-
-require './dc3lib'
+require 'dclogger'
+require 'dc3lib'
 #require './dc3lib_stub'
-require './topology_manager'
-require './job_scheduler'
-require './logger'
+require 'topology_manager'
+require 'job_scheduler'
+
 
 $topo = TopologyManager.new
 $jobsche = JobScheduler.new

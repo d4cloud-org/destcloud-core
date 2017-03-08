@@ -1,0 +1,16 @@
+[Unit]
+Description=D4Cloud Core Service(a.k.a. destcloud-core/destcloud2)
+Documentation=https://github.com/d4cloud-org/
+
+[Service]
+Type=forking
+PIDFile=/var/run/destcloud2.pid
+ExecStart=/usr/local/destcloud/core/destcloud2.sh
+ExecStop=kill `cat /var/run/destcloud2.pid`
+KillMode=process
+StandardOutput=null
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+Alias=destcloud-core.service
